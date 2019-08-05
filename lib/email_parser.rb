@@ -8,7 +8,7 @@ class EmailAddressParser
 
   def initialize(email_addresses)
     emails = []
-    email_addresses.split(/[\s,]/).each do |email|
+    email_addresses.split(/[\s|,]/).each do |email|
       emails << email
     end
     @email_addresses = emails
