@@ -10,7 +10,6 @@ class EmailParser
     emails = []
     email_addresses.each do |email|
 
-
     end
   end
 
