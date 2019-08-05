@@ -11,6 +11,7 @@ class EmailParser
     email_addresses.split(', ').each do |email|
       emails << email
     end
+    @email_addresses = emails
   end
 
   def parse
